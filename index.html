@@ -1,0 +1,599 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!-- For IE -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- For Resposive Device -->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- For Window Tab Color -->
+<!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#2c2c2c">
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#2c2c2c">
+<meta name="apple-mobile-web-app-status-bar-style" content="#2c2c2c">
+
+<title>主页</title>
+
+<!-- Main style sheet -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- responsive style sheet -->
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<!-- Theme-Color css -->
+<link rel="stylesheet" id="jssDefault" href="css/color.css">	
+</head>
+
+<body>
+<div class="search-box" id="searchWrapper">
+	<div id="close-button"></div>
+	<div class="container">
+		<form action="#">
+			<div class="greeting-text"><span class="greeting"></span></div>
+			<div class="input-wrapper">
+				<input type="text" placeholder="type your keyword" autofocus>
+			</div>
+		</form>
+	</div>
+</div>
+
+
+<div class="main-page-wrapper">
+	<!-- ===================================================
+		Loading Transition
+	==================================================== -->
+	<!--<div id="loader-wrapper">
+		<div id="loader">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>-->
+
+
+	<!-- ==================== Style Switcher ==================== -->
+	<!-- <div class="switcher">
+		<div class="switch-btn">
+			<button><i class="fas fa-cog fa-spin"></i></button>
+		</div>
+
+		switcher body 
+		<div class="switch-menu">
+			<h5 class="title">Style Switcher</h5>						
+			
+			<div class="switcher-container">
+				<h5>Color Skins</h5>
+				<ul id="styleOptions" title="Switch Color" class="clearfix">
+					<li><a href="javascript: void(0)" data-theme="color" class="color1"></a></li>
+					<li><a href="javascript: void(0)" data-theme="color-2" class="color2"></a></li>
+					<li><a href="javascript: void(0)" data-theme="color-3" class="color3"></a></li>
+					<li><a href="javascript: void(0)" data-theme="color-4" class="color4"></a></li>
+					<li><a href="javascript: void(0)" data-theme="color-5" class="color5"></a></li>
+					<li><a href="javascript: void(0)" data-theme="color-6" class="color6"></a></li>
+					<li><a href="javascript: void(0)" data-theme="color-7" class="color7"></a></li>
+					<li><a href="javascript: void(0)" data-theme="color-8" class="color8"></a></li>
+					<li><a href="javascript: void(0)" data-theme="color-9" class="color9"></a></li>
+					<li><a href="javascript: void(0)" data-theme="color-10" class="color10"></a></li>
+				</ul>
+				<h5>Theme Demo</h5>
+				<ul class="theme-demo clearfix">
+					<li>
+						<div class="img-box"><a href="sotto/"><img src="images/home/light.jpg" alt=""></a></div>
+						<h6>Light layout</h6>
+					</li>
+					<li>
+						<div class="img-box"><a href="sotto-dark/"><img src="images/home/dark.jpg" alt=""></a></div>
+						<h6>Dark layout</h6>
+					</li>
+				</ul>
+			</div>
+		</div> -->
+	</div>
+	
+	<div class="top-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-12">
+					<div class="news-bell">Recent Post :</div>
+					<div class="breaking-news easyTicker">
+						<div class="wrapper">
+							<div class="list"><a href="#">One morning, when Gregor Samsa woke from troubled dreams.</a></div>
+							<div class="list"><a href="#">CNN's Kyung Lah sits down with Japan's World Cup-winning.</a></div>
+							<div class="list"><a href="#">Song Byeok had every reason to be pleased with his success.</a></div>
+						</div> <!-- /.wrapper -->
+					</div> <!-- /.breaking-news -->
+				</div>
+				<div class="col-lg-4 col-12">
+					<ul class="social-icon text-right">
+						<li class="icon"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li class="icon"><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li class="icon"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+						<li class="icon"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+						<li class="search-button">
+							<button class="search" id="search-button"><i class="fas fa-search"></i></button>
+						</li>
+					</ul>
+				</div>
+			</div> <!-- /.row -->
+		</div> <!-- /.container -->
+	</div> <!-- /.top-header -->
+
+	
+
+	<!-- 
+	=============================================
+		Theme Header
+	============================================== 
+	-->
+	<header class="theme-main-header">
+		<div class="container">
+			<div class="content-holder clearfix">
+				<div class="logo"><a href="index.html"><img src="images/logo/logo.png" alt=""></a></div>
+				<!-- ============== Menu Warpper ================ -->
+				<div class="menu-wrapper">
+					<nav id="mega-menu-holder" class="clearfix">
+					   <ul class="clearfix">
+						  <li><a href="index.html">主页</a></li>
+						  <li><a href="about-me.html">地盘</a></li>
+						  <li><a href="contact.html">联系</a></li>
+					   </ul>
+					</nav> <!-- /#mega-menu-holder -->
+				</div> <!-- /.menu-wrapper -->
+			</div> <!-- /.content-holder -->
+		</div> <!-- /.container -->
+	</header> <!-- /.theme-main-header -->
+
+	
+	<!-- 
+	=============================================
+		Theme Main Banner
+	============================================== 
+	-->
+	<div class="theme-banner-section-one section-margin-bottom">
+		<!-- MasterSlider -->
+		<div id="P_masterslider" class="master-slider-parent ms-panorama ms-parent-id-30" >
+			<!-- MasterSlider Main -->
+			<div id="main-slider-one" class="master-slider ms-skin-default" >
+				<div class="ms-slide" data-delay="25" data-fill-mode="fill" >
+					<img class="ms-layer"
+						 src="images/blank.gif"
+						 data-src="images/home/panaroma1.jpg"
+						 alt=""
+						 style=""
+						 data-effect="t(false,850,n,n,n,n,n,n,n,n,n,n,n,n,n)"
+						 data-duration="30200"
+						 data-ease="linear"
+						 data-parallax="6"
+						 data-type="image"
+						 data-offset-x="-519"
+						 data-offset-y="-1"
+						 data-origin="mc"
+						 data-position="normal" />
+					<div class="ms-layer main-heading"
+						 style=""
+						 data-effect="t(true,n,20,n,n,n,n,n,n,n,n,n,n,n,n)"
+						 data-duration="3000"
+						 data-delay="400"
+						 data-ease="easeOutQuint"
+						 data-parallax="60"
+						 data-offset-x="115"
+						 data-offset-y="-95"
+						 data-origin="ml"
+						 data-position="normal"
+						 data-masked="true"
+						 data-mask-width="auto">骑行</div>
+					<div class="ms-layer author-layer"
+						 style=""
+						 data-effect="t(true,n,50,n,n,n,n,n,n,n,n,n,n,n,n)"
+						 data-duration="5000"
+						 data-delay="1500"
+						 data-ease="easeOutQuint"
+						 data-parallax="120"
+						 data-offset-x="120"
+						 data-offset-y="-33"
+						 data-origin="ml"
+						 data-position="normal"
+						 data-masked="true"
+						 data-mask-width="666">露营</div>
+					<div class="ms-layer main-text"
+						 style=""
+						 data-effect="t(true,n,50,n,n,n,n,n,n,n,n,n,n,n,n)"
+						 data-duration="5000"
+						 data-delay="2500"
+						 data-ease="easeOutQuint"
+						 data-parallax="120"
+						 data-offset-x="120"
+						 data-offset-y="35"
+						 data-origin="ml"
+						 data-position="normal"
+						 data-masked="true"
+						 data-mask-width="450">远处的雪山也渐渐露出庐山真面目。阳光也撒了下来，一股暖流在身体中流淌。</div>
+					<div class="ms-layer read-more"
+						 style=""
+						 data-effect="t(true,n,n,n,n,n,n,n,n,n,n,n,n,n,n)"
+						 data-duration="5000"
+						 data-delay="3500"
+						 data-ease="easeOutQuint"
+						 data-parallax="80"
+						 data-offset-x="120"
+						 data-offset-y="90"
+						 data-origin="ml"
+						 data-position="normal" ><a href="#">查看更多</a></div>
+				</div>
+				<div class="ms-slide" data-delay="25" data-fill-mode="fill" >
+					<img class="ms-layer"
+						 src="images/blank.gif"
+						 data-src="images/home/panaroma2.jpg"
+						 alt=""
+						 style=""
+						 data-effect="t(false,850,n,n,n,n,n,n,n,n,n,n,n,n,n)"
+						 data-duration="30000"
+						 data-ease="linear"
+						 data-parallax="6"
+						 data-type="image"
+						 data-offset-x="-630"
+						 data-offset-y="0"
+						 data-origin="mc"
+						 data-position="normal" />
+					<div class="ms-layer main-heading"
+						 style=""
+						 data-effect="t(true,n,20,n,n,n,n,n,n,n,n,n,n,n,n)"
+						 data-duration="3000"
+						 data-delay="400"
+						 data-ease="easeOutQuint"
+						 data-parallax="60"
+						 data-offset-x="115"
+						 data-offset-y="-95"
+						 data-origin="ml"
+						 data-position="normal"
+						 data-masked="true"
+						 data-mask-width="auto">徒步</div>
+					<div class="ms-layer author-layer"
+						 style=""
+						 data-effect="t(true,n,50,n,n,n,n,n,n,n,n,n,n,n,n)"
+						 data-duration="5000"
+						 data-delay="1500"
+						 data-ease="easeOutQuint"
+						 data-parallax="120"
+						 data-offset-x="120"
+						 data-offset-y="-33"
+						 data-origin="ml"
+						 data-position="normal"
+						 data-masked="true"
+						 data-mask-width="666">杨四郎</div>
+					<div class="ms-layer main-text"
+						 style=""
+						 data-effect="t(true,n,50,n,n,n,n,n,n,n,n,n,n,n,n)"
+						 data-duration="5000"
+						 data-delay="2500"
+						 data-ease="easeOutQuint"
+						 data-parallax="120"
+						 data-offset-x="120"
+						 data-offset-y="35"
+						 data-origin="ml"
+						 data-position="normal"
+						 data-masked="true"
+						 data-mask-width="450">神话的美妙之处在于，它带我们回到那个世界还很年轻的时候，人们和地球上的树木、海洋、花朵、山川都密切相连。我们可以跟随神话，从这个人类与大自然疏离的文明时代，追溯回那个人们和自然亲密为友的美好时光。</div>
+					<div class="ms-layer read-more"
+						 style=""
+						 data-effect="t(true,n,n,n,n,n,n,n,n,n,n,n,n,n,n)"
+						 data-duration="5000"
+						 data-delay="3500"
+						 data-ease="easeOutQuint"
+						 data-parallax="80"
+						 data-offset-x="120"
+						 data-offset-y="90"
+						 data-origin="ml"
+						 data-position="normal" ><a href="#">查看更多</a></div>
+				</div>
+			</div> <!-- /#main-slider-one -->
+		</div>
+	</div> <!-- /.theme-banner-section-one -->
+	
+	
+	
+	<!-- 
+	=============================================
+		Main Blog Post Wrapper
+	============================================== 
+	-->
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-12 blog-grid-style hover-effect-one">
+				<div class="single-blog-post">
+					<div class="image-box"><img src="images/blog/1.jpg" alt=""></div>
+					<div class="post-meta-box bg-box">
+						<ul class="author-meta clearfix">
+							<li class="tag"><a href="#">产品经理</a></li>
+							<li class="date"><a href="#">15-12 , 2018</a></li>
+						</ul>
+						<h4 class="title"><a href="#">年终汇报：辛苦一年，如何让老板知道我的优秀不容忽视？</a></h4>
+						<ul class="share-meta clearfix">
+							<li><a href="#"><i class="icon flaticon-comment"></i>评论 (04)</a></li>
+							<li><a href="#"><i class="icon flaticon-like-heart"></i>喜欢 (02)</a></li>
+							<li class="share-option">
+								<button><i class="icon flaticon-arrows"></i> 分享</button>
+								<ul class="share-icon">
+									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+									<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+								</ul>
+							</li> <!-- /.share-option -->
+						</ul>
+						<p>用5W2H工具明确内容清单<br/>为什么要写，怎么写，给谁看……要理清思路，确保顺利完成这项事的要素不遗漏，就可以借助5W2H工具先梳理。<br/>第二步：用MECE法则归纳工作内容，收集素材<br/>
+MECE法则是麦肯锡的第一个女咨询顾问巴巴拉·明托(Barbara Minto) 在《金字塔原理》一书中提出的一个很重要的原则：即“相互独立，完全穷尽”。 可以有效的对杂乱无章的信息进行分类，做到不重叠、不遗漏，使得工作内容具备条理性，并帮助有效抓取重点内容。</p>
+					</div> <!-- /.post-meta-box -->
+				</div> <!-- /.single-blog-post -->
+				<div class="single-blog-post">
+					<div class="image-box"><img src="images/blog/2.jpg" alt=""></div>
+					<div class="post-meta-box bg-box">
+						<ul class="author-meta clearfix">
+							<li class="tag"><a href="#">产品分析</a></li>
+							<li class="date"><a href="#">10 12 , 2018</a></li>
+						</ul>
+						<h4 class="title"><a href="#">项目复盘：从0到1，如何做好竞品分析？</a></h4>
+						<ul class="share-meta clearfix">
+							<li><a href="#"><i class="icon flaticon-comment"></i>评论(03)</a></li>
+							<li><a href="#"><i class="icon flaticon-like-heart"></i>喜欢(05)</a></li>
+							<li class="share-option">
+								<button><i class="icon flaticon-arrows"></i> 分享</button>
+								<ul class="share-icon">
+									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+									<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+								</ul>
+							</li> <!-- /.share-option -->
+						</ul>
+						<p>第一步，找到你的所有竞品，记住，是所有。<br/>
+							其实这个所有，可能并非是真正意义上的所有，我认为的所有竞品，是包含所有你可能做的业务的任何产品形式。<br/>
+							这句话可能有些拗口，我来解释一下，”所有你可能做的业务“，是代表你现在不知道自己做什么业务，你要将跟互联网保险相关的所有模式的产品，比如众安保险（互联网保险商城），平安金管家（平安的线上投保入口），保险师（面向代理人的保险分销平台）等等都找出来。<br/>
+							而“任何产品形式”，代表了这个产品可能是APP，也可能是网页端，甚至一个公众号，比如，悟空保旗下的金箍棒保险。 moment.<br/>
+							第二步，竞品分类<br/>
+							这些繁杂的保险产品，就算是你能全部找到，也难免有所遗漏，毕竟现在互联网产品多如牛毛，但是好的互联网产品确实凤毛麟角。<br/>
+							其实你只需将他们按照产品模式分个类，便会豁然开朗，每个类中找到几十个代表产品便足以，就我们的项目为例，我暂且将他们分为五类。<br/>
+							1. 面向普通用户的To C保险产品：众安保险，泰康在线，小雨伞保险，大象保险，慧择保险……
+							2. 面向代理人的To A分销平台：保险师，I云保，金箍棒保，咔嚓保，聚米保险，保险助手，创保网……
+							3. 面向商家的定制化保险To B服务公司：保准牛，聚宝物流，熊猫车险，易保科技……
+							4. 互联网兼业保险平台：支付宝蚂蚁保险，微信的微保商城，京东金融下保险商城，美团保险，小米金融保险……
+							5. 传统保险公司线上化：平安金管家……
+						</p>
+					</div> <!-- /.post-meta-box -->
+				</div> <!-- /.single-blog-post -->
+				<div class="single-blog-post">
+					<div class="image-box"><img src="images/blog/3.jpg" alt=""></div>
+					<div class="post-meta-box bg-box">
+						<ul class="author-meta clearfix">
+							<li class="tag"><a href="#">骑行</a></li>
+							<li class="date"><a href="#">01-11 , 2018</a></li>
+						</ul>
+						<h4 class="title"><a href="#">骑上海拔4300米的云端</a></h4>
+						<ul class="share-meta clearfix">
+							<li><a href="#"><i class="icon flaticon-comment"></i>评论(03)</a></li>
+							<li><a href="#"><i class="icon flaticon-like-heart"></i>喜欢(05)</a></li>
+							<li class="share-option">
+								<button><i class="icon flaticon-arrows"></i> 分享</button>
+								<ul class="share-icon">
+									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+									<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+								</ul>
+							</li> <!-- /.share-option -->
+						</ul>
+						<p>在冷酷的冬季似乎一切都被寒冷磨灭了激情，无意中看见一张巴朗山的照片，又激发了内心的小宇宙，邀约两三好友说走就走，本打算第二天开始从家骑行过去，迫不及待的我们决定当晚即刻出发，先开车到离巴朗山不远的卧龙镇住下，第二天一早开始进山骑行。一早到达山脚发现山脉云雾缭绕，能见度很低，有两位骑摩托的骑友从山上下来，说前面有段路还有暗冰，让我们小心前行。我们三人一致决定现在就上山，暗冰大不了就推车，就这样，满怀激情地就开始漫长的爬坡了。</p>
+					</div> <!-- /.post-meta-box -->
+				</div> <!-- /.single-blog-post -->
+				<div class="single-blog-post">
+					<div class="image-box"><img src="images/blog/4.jpg" alt=""></div>
+					<div class="post-meta-box bg-box">
+						<ul class="author-meta clearfix">
+							<li class="tag"><a href="#">产品经理</a></li>
+							<li class="date"><a href="#">10 may , 2018</a></li>
+						</ul>
+						<h4 class="title"><a href="#">互联网寒冬，不是深渊，而是阶梯</a></h4>
+						<ul class="share-meta clearfix">
+							<li><a href="#"><i class="icon flaticon-comment"></i>评论(03)</a></li>
+							<li><a href="#"><i class="icon flaticon-like-heart"></i>喜欢(05)</a></li>
+							<li class="share-option">
+								<button><i class="icon flaticon-arrows"></i> 分享</button>
+								<ul class="share-icon">
+									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+									<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+								</ul>
+							</li> <!-- /.share-option -->
+						</ul>
+						<p>今年冬天尤其冷。<br/>
+							北京冻得厉害，而上海也下雪了。
+							上一个让人记忆犹新的寒冬，是在08年初。大雪瘫痪了铁路系统，很多人堵在火车站里过的年。
+							如果说今年和08年，还有什么共通之处的话，大约是求职市场的寒冬。
+							那一年，万科大佬王石一个劲喊拐点到了。而今年，万科年会的祝福语是：活下去。
+							很多90后小伙伴没有经历过，其实互联网企业如今恐慌性的裁员，控制成本，这和当年外资企业的做法，也没啥两样。
+							太阳底下无新事。
+							那一年，我陪同Randstad全球CEO去拜访上海市副市长，副市长直接就问：
+							保障大学生就业方面，外资企业有什么好的建议？
+							而今年的大学生也是很苦，很棒的复旦交大研究生毕业生，放在过往，手里起码有3-5个offer，而今年能拿到一个offer就很不容易了，过往学生们用来保底的四大offer，今年都非常难拿到。
+							可以负责任的说，这场寒冬，不仅仅是在互联网圈子，也席卷了整个职场。让人想起了《权力的游戏》里那句著名的台词。</p>
+					</div> <!-- /.post-meta-box -->
+				</div> <!-- /.single-blog-post -->						
+
+				<div class="theme-pagination text-center">
+					<ul class="clearfix">
+						<li><a href="#"><i class="icon flaticon-left-arrow"></i></a></li>
+						<li class="active"><a href="#">1</a></li>
+						<!--<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>-->
+						<li><a href="#"><i class="icon flaticon-right-arrow"></i></a></li>
+					</ul>
+				</div> <!-- /.theme-pagination -->
+			</div> <!-- /.col- -->
+			
+			<!-- ======================== Theme Sidebar =============================== -->
+			<div class="col-lg-4 col-md-7 col-12 theme-main-sidebar">
+				<div class="sidebar-box bg-box about-me">
+					<h6 class="sidebar-title">自我介绍</h6>
+					<img src="images/home/1.jpg" alt="">
+					<p>Hi, 我是杨敏. 至于现在，我只把注意力集中在分享上。我用我拥有的价值、梦想和目标做真实的自己....</p>
+					<div class="clearfix"><img src="images/home/sign.png" alt="" class="signature float-right"></div>
+				</div> <!-- /.about-me -->
+				<div class="sidebar-box bg-box sidebar-categories">
+					<h6 class="sidebar-title">目录</h6>
+					<ul>
+						<li><a href="#">网页设计</a></li>
+						<!--<li><a href="#">Fashion</a></li>
+						<li><a href="#">Graphic Design</a></li>
+						<li><a href="#">News and Events</a></li>
+						<li><a href="#">Personal</a></li>
+						<li><a href="#">Branding Agency</a></li>
+						<li><a href="#">Lifestyle</a></li>
+						<li><a href="#">Travel</a></li>-->
+						<li><a href="#">图片美化</a></li>
+						<li><a href="#">茶叶电商</a></li>
+						<li><a href="#">实时新闻</a></li>
+						<li><a href="#">私人空间</a></li>
+						<li><a href="#">品牌代理</a></li>
+						<li><a href="#">生活分享</a></li>
+						<li><a href="#">旅行分享</a></li>
+					</ul>
+				</div> <!-- /.sidebar-categories -->
+				<div class="sidebar-box bg-box sidebar-trending-post">
+					<h6 class="sidebar-title">趋势</h6>
+					<div class="single-trending-post clearfix">
+						<img src="images/blog/5.jpg" alt="" class="float-left">
+						<div class="post float-left">
+							<h6><a href="#">小企业的新效益 </a></h6>
+							<ul>
+								<li class="tag">生活方式</li>
+								<li class="date">16 march</li>
+							</ul>
+						</div> <!-- /.post -->
+					</div> <!-- /.single-trending-post -->
+					<div class="single-trending-post clearfix">
+						<img src="images/blog/6.jpg" alt="" class="float-left">
+						<div class="post float-left">
+							<h6><a href="#">小企业的新效益 </a></h6>
+							<ul>
+								<li class="tag">art</li>
+								<li class="date">15 march</li>
+							</ul>
+						</div> <!-- /.post -->
+					</div> <!-- /.single-trending-post -->
+					<div class="single-trending-post clearfix">
+						<img src="images/blog/7.jpg" alt="" class="float-left">
+						<div class="post float-left">
+							<h6><a href="#">小企业的新效益 </a></h6>
+							<ul>
+								<li class="tag">travel</li>
+								<li class="date">13 march</li>
+							</ul>
+						</div> <!-- /.post -->
+					</div> <!-- /.single-trending-post -->
+					<div class="single-trending-post clearfix">
+						<img src="images/blog/8.jpg" alt="" class="float-left">
+						<div class="post float-left">
+							<h6><a href="#">小企业的新效益 </a></h6>
+							<ul>
+								<li class="tag">life</li>
+								<li class="date">10 march</li>
+							</ul>
+						</div> <!-- /.post -->
+					</div> <!-- /.single-trending-post -->
+				</div> <!-- /.sidebar-trending-post -->
+				<div class="sidebar-box bg-box sidebar-categories">
+					<h6 class="sidebar-title">历史</h6>
+					<ul>
+						<li><a href="#">12月 2018</a></li>
+						<li><a href="#">11月 2018</a></li>
+						<li><a href="#">10月 2018</a></li>
+						<li><a href="#">09月  2018</a></li>
+						<li><a href="#">08月  2018</a></li>
+						<li><a href="#">07月 2108</a></li>
+						<li><a href="#">06月  2018</a></li>
+						<li><a href="#">05月 2018</a></li>
+					</ul>
+				</div> <!-- /.sidebar-categories -->
+				<div class="sidebar-box bg-box sidebar-tags">
+					<h6 class="sidebar-title">关键字</h6>
+					<ul class="clearfix">
+						<li><a href="#">设计</a></li>
+						<li><a href="#">时尚</a></li>
+						<li><a href="#">摄影</a></li>
+						<li><a href="#">咨询</a></li>
+						<li><a href="#">私人空间</a></li>
+						<li><a href="#">生活分享</a></li>
+						<li><a href="#">旅行分享</a></li>
+					</ul>
+				</div> <!-- /.sidebar-tags -->
+				<div class="sidebar-box bg-box sidebar-newsletter">
+					<h6 class="sidebar-title">与我联系</h6>
+					<form action="#">
+						<input type="email" placeholder="你的邮箱地址" required>
+						<button class="theme-button-one">注册</button>
+					</form>
+				</div> <!-- /.sidebar-newsletter -->
+			</div> <!-- /.theme-main-sidebar -->
+		</div> <!-- /.row -->
+	</div> <!-- /.container -->
+
+
+	<!--
+	=====================================================
+		Footer
+	=====================================================
+	-->
+	<footer class="theme-footer">
+		<div class="container">
+			<div class="logo"><a href="index.html"><img src="images/logo/logo.png" alt=""></a></div>
+			<!--<p class="footer-text">Blog and Portfolio Theme</p>博客和投资组合主题-->
+			<ul class="social-icon">
+				<li class="icon"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+				<li class="icon"><a href="#"><i class="fab fa-twitter"></i></a></li>
+				<li class="icon"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+				<li class="icon"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+			</ul>
+			<p class="copyright">Copyright &copy; 2018.橡树棵科技工作室<a target="_blank" href=""></a></p>
+		</div> <!-- /.container -->
+	</footer> <!-- /.theme-footer -->	
+
+	<!-- Scroll Top Button -->
+	<button class="scroll-top tran3s">
+		<i class="fa fa-angle-up" aria-hidden="true"></i>
+	</button>
+	
+	
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!-- jQuery -->
+<script src="vendor/jquery.2.2.3.min.js"></script>
+<!-- Popper js -->
+<script src="vendor/popper.js/popper.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!-- Style-switcher  -->
+<script src="vendor/jQuery.style.switcher.min.js"></script>
+<!-- jquery-easy-ticker-master -->
+<script src="vendor/jquery-easy-ticker-master/jquery.easy-ticker.min.js"></script>
+<!-- jquery easing -->
+<script src="vendor/jquery.easing.1.3.js"></script>
+<!-- Font Awesome -->
+<script src="fonts/font-awesome/fontawesome-all.min.js"></script>
+<!-- Master Slider -->
+<script src="vendor/masterslider/masterslider.min.js"></script>
+<!-- menu  -->
+<script src="vendor/menu/src/js/jquery.slimmenu.js"></script>
+<!-- owl.carousel -->
+<script src="vendor/owl-carousel/owl.carousel.min.js"></script>
+<!-- Fancybox -->
+<script src="vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+<!-- Youtube Video -->
+<script src="vendor/jquery.fitvids.js"></script>
+
+<!-- Theme js -->
+<script src="js/theme.js"></script>
+</div> <!-- /.main-page-wrapper -->
+</body>
+</html>
